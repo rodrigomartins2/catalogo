@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using WebApi.Data;
 using WebApi.Models;
 using Xunit;
