@@ -19,7 +19,7 @@ namespace TesteCatalogo
 
             double freteEsperado = catalogo.frete;
             double freteAtual = new DataDeserialize().CalculaFrete(catalogo.price);
-
+            //Teste
             Assert.Equal(freteEsperado, freteAtual);
         }
     }
